@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Ubuntu&display=swap");
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(64, 247, 201);
+}
+
+.btn_header {
+  background-color: rgb(53, 243, 16);
+  color: black;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn_header:hover {
+  cursor: pointer;
+  background-color: rgb(24, 136, 1);
+}

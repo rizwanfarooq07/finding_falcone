@@ -1,0 +1,93 @@
+.history {
+  background-image: url(../../assets/animtedSpace.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+
+.headings {
+  color: black;
+  background-color: rgb(213, 130, 216);
+  opacity: 0.5;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.history_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.start {
+  background-color: rgb(53, 243, 16);
+  color: black;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: 1px solid rgb(53, 52, 52);
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgb(3, 6, 8) 0px 20px 30px -10px;
+  margin: 20px 0;
+}
+
+.start:hover {
+  cursor: pointer;
+  background-color: rgb(24, 136, 1);
+}
+
+.planets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.planets_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 10px;
+  margin-top: 15px;
+}
+
+.planet_images {
+  margin: 10px 0;
+  height: 150px;
+  /* opacity: 0.8; */
+}
+
+.vehicles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vehicles_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+  margin-top: 10px;
+}
+
+.vehicle_images {
+  margin: 10px 0;
+  height: 200px;
+  /* opacity: 0.8; */
+}
